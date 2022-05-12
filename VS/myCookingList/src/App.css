@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100;300;600&display=swap");
+
+.header {
+  background-color: #668;
+  width: 100%;
+  height: 50px;
+  position: relative;
+}
+
+.header > h1 {
+  top: -7px;
+  left: 50px;
+  position: absolute;
+}
+
+.Content {
+  text-align: center;
+}
+
+.FoodCard {
+  width: 200px;
+  text-align: center;
+  margin: 20px;
+  padding-top: 15px;
+  display: inline-block;
+
+  border-style: dashed;
+  border-color: #668;
+  border-radius: 15px;
+
+  line-height: 50%;
+}
+
+.FoodCard > img {
+  height: 20vh;
+  max-width: 170px;
+  object-fit: cover;
+}
+
+.FoodCard:nth-child(1) {
+  font-weight: 700;
+  font-family: "Grenze Gotisch", cursive;
+}

@@ -1,0 +1,89 @@
+.content{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header {
+  background-color: #668;
+  width: 100%;
+  height: 50px;
+  position: relative;
+}
+
+.header > h1 {
+  top: -7px;
+  left: 50px;
+  position: absolute;
+}
+
+.char-box {
+  position: relative;
+  height: 400px;
+}
+.char-box > img {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 400px;
+}
+
+
+#B-Breast{
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 380px;
+  transform: translate(-50%, 0);
+}
+#B-Breast> button {
+  height: 50px;
+  width: 50px;
+  margin:0px 20px ;
+  cursor: url("./imgs/cursors/hand\ 01.png") 0 0, auto;
+  color: transparent;
+  background-color: transparent;
+  border-style: none;
+}
+#B-Breast> button:active {
+  cursor: url("./imgs/cursors/hand\ 05.png") 1 1, auto;
+}
+
+#B-Head {
+  height: 70px;
+  width: 100px;
+  position: absolute;
+  left: 50%;
+  top: 140px;
+  transform: translate(-50%, 0);
+  cursor: url("./imgs/cursors/hand\ 01.png") 4 12, auto;
+  color: transparent;
+  background-color: transparent;
+  border-style: none;
+}
+#B-Head:active {
+  cursor: url("./imgs/cursors/hand\ 06.png") 4 12, auto;
+}
+
+#B-Face {
+  height: 60px;
+  width: 70px;
+  position: absolute;
+  left: 50%;
+  top: 220px;
+  transform: translate(-50%, 0);
+  cursor: url("./imgs/cursors/hand\ 01.png") 4 12, auto;
+  color: transparent;
+  background-color: transparent;
+  border-style: none;
+}
+#B-Face:active {
+  cursor: url("./imgs/cursors/hand\ 02.png") 4 12, auto;
+}
+
+.Heart-box{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 0px;
+}
