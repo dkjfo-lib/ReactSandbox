@@ -1,6 +1,13 @@
 // eslint-disable-next-line import/no-anonymous-default-export
 export default[
     {
+        name: "Мининское",
+        description: "clear night sky",
+        date: "2022.04.22",
+        img: "IMG_20220422_001456.jpg",
+        geo: "https://www.google.co.uk/maps/@58.049653,41.511909,460m/data=!3m1!1e3",
+    },
+    {
         name: "Приокско-Террасный",
         description: "navigation in forest",
         date: "2020.10.04",
@@ -53,7 +60,7 @@ export default[
         name: "Шереметьево",
         description: "airport",
         date: "2020.09.02",
-        img: "IMG_20200902_142358.jpg",
+        img: "IMG_20200902_142358-c.jpg",
         geo: "https://www.google.co.uk/maps/@55.9757707,37.440793,4060m/data=!3m1!1e3",
     },
 ]
