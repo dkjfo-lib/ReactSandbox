@@ -6,24 +6,27 @@ export default [
         img: 'banana milkshake.png',
         ingredients: [
             '100g of rice',
-            '250g of meat',
-            'salt & pepper'
+            '200g of water',
+            '100-250g of meat',
+            'oil, salt & pepper'
         ],
         instructions: [
-            'clear the rice in a cool water',
-            'take a bowl and add 200ml of water and 100g rice',
+            'unfreeze the meat if needed',
+            'wash the rice in a cool water',
+            'take a bowl, add 200ml of water and 100g rice to it',
             'turn on high heat and wait for the water to boil',
-            'after it boils close the pot with a lid and change heat to low',
-            'set two timers one for 10 minutes and other for 20 minutes',
-            'cut the meat into slices of up tot 1.5cm high and apply salt and pepper to one side of them',
-            'when 10 minute timer goes off apply oil to the pan start heating it',
+            'after it boils close a lid and change the heat to low',
+            'set two timers: the first for 10 minutes and the second for 20 minutes',
+            'cut the meat into slices of up tot 1.5sm high and apply salt and pepper to one side of them',
+            'when 10 minute timer goes off apply oil to the pan and heat it',
             'after 0.5-1 minute lay down meat slices salted side down',
             'set heat to above average and set a new timer for 4 minutes',
             'apply salt and pepper to the other side of the slices',
             'after 4 minutes turn meat slices over',
+            'when 4 minute timer goes off set meat on low heat',
             'when 20 minute timer goes off, turn off rice heat',
-            'get rid of rice water and add rice to the pan with chicken slices',
-            'mix chicken and rice till rice will get in chicken souse',
+            'get rid of excess water in rice and add rice to the pan with chicken slices',
+            'add a bit of oil and salt to rice, mix chicken and rice till rice will get in chicken juices',
             'enjoy!'
         ],
         tips: [
